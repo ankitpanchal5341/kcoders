@@ -9,48 +9,50 @@ import {
 
 import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
+import benefitTwoImg2 from "../public/img/2.jpeg";
+import benefit1Img from "../public/img/1.jpeg";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
-  image: benefitOneImg,
+  title: "Benefits by us",
+  desc: "",
+  image: benefit1Img,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Trust",
+      desc: "We believe in building relationships based on trust. We take the confidentiality of your data and IPR very seriously and maintain formal agreements with each of our employees.",
       icon: <EmojiHappyIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "On-Time Delivery",
+      desc: "we only make promises we can deliver on. We boast of meeting our deadlines on all projects. In case we are facing delays, we keep you in the loop as soon as possible.",
       icon: <ChartSquareBarIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Top Talent ",
+      desc: "Rigorously selected and professionally trained team, incentivized to be accountable, commercial and transparent in communication.      ",
       icon: <CursorClickIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
-  image: benefitTwoImg,
+  title: "We offer more benefits",
+  desc: "",
+  image: benefitTwoImg2,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Kwik Coders Technologies Co. LLC is designed as a mobile first responsive template.",
+      title: "Best Practices      ",
+      desc: "Over time, we have built best practices for productivity tools, project management, code delivery, and SDLC. Working together, each developer has help at their disposal.      ",
       icon: <DeviceMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Easy Administration      ",
+      desc: "We cover all contract work, payroll operations, leave management, employee retention, team setup and logistics.",
       icon: <AdjustmentsIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Kwik Coders Technologies Co. LLC comes with a zero-config light & dark mode. ",
+      title: "Technical Support",
+      desc: "Kwik Coders Technologies Co. LLC provides technical support for yours projects build by us according to your subscribed plan. ",
       icon: <SunIcon />,
     },
   ],

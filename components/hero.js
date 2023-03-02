@@ -32,7 +32,7 @@ export default function Hero() {
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
-                Download for Free
+                Contact Us
               </a>
 
             </div>
@@ -68,7 +68,7 @@ export default function Hero() {
             clients worldwide
           </div>
           <div className="text-sm text-center text-gray-700 dark:text-white">
-            We are a team of  highly experienced developers who workes for<span className="text-xl"> 👇</span>
+            We have a team of  highly experienced developers who workes for<span className="text-xl"> 👇</span>
           </div>
 
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">

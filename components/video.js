@@ -1,12 +1,12 @@
 import { useState } from "react";
 import Container from "./container";
-
+import Image from "next/image";
 export default function Video() {
   const [playVideo, setPlayVideo] = useState(false);
   return (
     <Container>
       <div className="w-full max-w-4xl mx-auto overflow-hidden lg:mb-20 rounded-2xl ">
-        <div
+        {/* <div
           onClick={() => setPlayVideo(!playVideo)}
           className="relative bg-indigo-300 cursor-pointer aspect-w-16 aspect-h-9 bg-gradient-to-tr from-purple-400 to-indigo-700">
           {!playVideo && (
@@ -33,8 +33,12 @@ export default function Video() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
           )}
-        </div>
-      </div>
+        </div> */}
+        <Image
+          src={'/img/website.png'}
+          width="800"
+          height="400"
+        /></div>
     </Container>
   );
 }
