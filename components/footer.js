@@ -36,8 +36,9 @@ export default function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Kwik Coders Technologies Co. LLC is a tech company build webisite & mobile applications for startups and indie projects. this website built with
-              Next.js & TailwindCSS.
+              {/* Kwik Coders Technologies Co. LLC is a tech company build webisite & mobile applications for startups and indie projects. this website built with
+              Next.js & TailwindCSS. */}
+              Phone No: 043316601, P. O. Box: 120320 Office No. 224 RKM Building Al Qiyadah Metro Station, Hor Al Anz East, -U.A.E
             </div>
 
 
