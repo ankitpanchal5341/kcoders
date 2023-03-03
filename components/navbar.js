@@ -25,8 +25,8 @@ export default function Navbar() {
                     <img
                       src="/img/logo.jpg"
                       alt="N"
-                      width="32"
-                      height="32"
+                      width="60"
+                      height="60"
                       className="w-8"
                     />
                   </span>

@@ -13,42 +13,39 @@ export default function Testimonials() {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+              - They creates a  user-friendly website with a lot of features.  great work done by Kwik Coders.
             </p>
 
             <Avatar
               image={userOneImg}
               name="Sarah Steiner"
-              title="VP Sales at Google"
+              title="VP Sales "
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+              - I appreciate all the work that went into making it, and I will definitely be recommending it to others.
             </p>
 
             <Avatar
               image={userTwoImg}
-              name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
+              name="Satish Chandra"
+              title="Lead Marketer"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I've seen. I
-              would use this for anything.
+              -  they're always willing to go the extra mile to ensure your project is completed to your satisfaction.
             </p>
 
             <Avatar
               image={userThreeImg}
               name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
+              title="Manager at DEOM"
             />
           </div>
         </div>

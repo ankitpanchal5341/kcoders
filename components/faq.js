@@ -15,9 +15,8 @@ export default function Faq() {
                   <Disclosure.Button className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-gray-800 rounded-lg bg-gray-50 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-indigo-100 focus-visible:ring-opacity-75 dark:bg-trueGray-800 dark:text-gray-200">
                     <span>{item.question}</span>
                     <ChevronUpIcon
-                      className={`${
-                        open ? "transform rotate-180" : ""
-                      } w-5 h-5 text-indigo-500`}
+                      className={`${open ? "transform rotate-180" : ""
+                        } w-5 h-5 text-indigo-500`}
                     />
                   </Disclosure.Button>
                   <Disclosure.Panel className="px-4 pt-4 pb-2 text-gray-500 dark:text-gray-300">
@@ -35,21 +34,21 @@ export default function Faq() {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "In which technology should I do my web development?",
+    answer: "As the technology opted depends on your requirement and audience targeted, we normally offer a free primary consultation on which technology you should opt for your web designing or development requirement. Just contact us with your requirements for the same!.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "How much does it cost to hire a web developer ?",
+    answer: "You can hire a web development company  on a per-project basis, where the cost of the project completely depends on the scope of the project. When you hire on a per-project basis various teams (UX and web designers, front-end developers, back-end developers, testers, etc) would be involved in your project at different stages and there will also be a dedicated project manager assigned.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "How to find the best web design company in India? ",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "It would be difficult to find the best web design company, if you didn't approach it in the right way. There are thousands of companies and everyone claims to offer the same level of service. But it's up to you to do some research on the company that you're considering - especially on their previous works, their credentials, their clients, etc then just compare based on their price.",
   },
   {
     question: "Do you offer technical support? ",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Yes, we offer technical support . Please purchase a support plan to get 6 months of support.",
   },
 ];
